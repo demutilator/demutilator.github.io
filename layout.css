@@ -1,0 +1,85 @@
+/* layout.css */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    margin-top: 50px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.controls {
+    background-color: rgb(52, 69, 91);
+    padding: 20px;
+    border-radius: 8px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 50px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.upload-section {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.collage-options {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 12px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.smart-grid-layout {
+    display: grid;
+    gap: var(--spacing);
+    grid-auto-rows: min-content;
+}
+
+.grid-layout {
+    display: grid;
+    gap: var(--spacing);
+}
+
+.masonry-layout {
+    columns: var(--columns);
+    column-gap: var(--spacing);
+}
+
+.puzzle-layout {
+    position: relative;
+    height: 600px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#collage-container {
+    min-height: 500px;
+    border: 2px dashed #ddd;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+
+#thumbnail-container,
+.thumbnail-container {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: auto;
+    gap: 10px;
+    padding: 10px 0;
+}

@@ -88,3 +88,9 @@ label {
     gap: 10px;
     padding: 10px 0;
 }
+
+input, select{
+    border-color:#989898;
+    background-color: #2f2f2f;
+    color:white;
+}

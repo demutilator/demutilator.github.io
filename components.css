@@ -96,7 +96,7 @@ button {
     border: none;
     border-radius: 6px;
     cursor: pointer;
-    background-color: #3498db;
+    background-color: #3e3e3e;
     color: white;
     transition: background-color 0.3s;
 }

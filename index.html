@@ -45,13 +45,6 @@
             });
         });
         
-        // Clicking the island toggles the menu on mobile
-        islandNavbar.addEventListener('click', function() {
-            if (window.innerWidth <= 768) {
-                this.classList.toggle('expanded');
-                this.style.width = this.classList.contains('expanded') ? '180px' : '40px';
-            }
-        });
         
         // Optional: Make the island expand when scrolling up
         let lastScrollTop = 0;
